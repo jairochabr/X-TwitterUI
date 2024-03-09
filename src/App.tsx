@@ -1,5 +1,6 @@
 import twitterLogo from "./assets/X.svg";
-import { House, Hash, Bell, EnvelopeSimple, BookmarkSimple, FileText, User, DotsThreeCircle, Sparkle } from 'phosphor-react';
+import Communities from "./assets/Communities.svg"
+import { House, MagnifyingGlass, Bell, EnvelopeSimple, BookmarkSimple, FileText, User, DotsThreeCircle, Sparkle } from 'phosphor-react';
 
 export function App() {
   return (
@@ -9,11 +10,11 @@ export function App() {
 
         <nav className="main-navigation">
           <a className="active" href="#home">
-            <House />
+            <House weight="fill" />
             Home
             </a>
           <a href="#explore">
-            <Hash />
+            <MagnifyingGlass />
             Explore
             </a>
           <a href="#notifications">
@@ -31,6 +32,14 @@ export function App() {
           <a href="#lists">
             <FileText />
             Lists
+            </a>
+          <a href="#lists">
+            <img src={Communities} alt="X" />
+            Communities
+            </a>
+          <a href="#lists">
+            <img src={twitterLogo} alt="X" />
+            Premium
             </a>
           <a href="#profile">
             <User />
