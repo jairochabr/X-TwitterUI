@@ -12,6 +12,7 @@
 body {
   color: #0F1419;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body, input, textarea, button {
@@ -76,7 +77,6 @@ a {
   align-items: center;
   gap: 1.25rem;
   font-size: 1.25rem;
-  font-weight: bold;
   padding: 1rem;
 }
 
